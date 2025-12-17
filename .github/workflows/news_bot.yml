@@ -1,0 +1,33 @@
+name: Web3 News Daily
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # Runs at 10:00 UTC
+    - cron: "0 18 * * *" # Runs at 18:00 UTC
+  workflow_dispatch: # Allows manual testing button
+
+permissions:
+  contents: write # Grants permission to push commits
+
+jobs:
+  daily-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch and Log Web3 News
+        run: |
+          # 1. Fetch latest crypto news headline
+          LATEST_NEWS=$(curl -s "https://min-api.cryptocompare.com/data/v2/news/?lang=EN" | jq -r '.Data[0].title')
+
+          # 2. Append to log.txt
+          echo "$(date) - $LATEST_NEWS" >> log.txt
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+
+          git add log.txt
+          git commit -m "News Update: $(date +'%Y-%m-%d')"
+          git push
