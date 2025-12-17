@@ -2,7 +2,7 @@ name: Web3 News Daily
 
 on:
   schedule:
-    - cron: "05 12 * * *" # Runs at 10:00 UTC
+    - cron: "10 12 * * *" # Runs at 10:00 UTC
     - cron: "0 18 * * *" # Runs at 18:00 UTC
   workflow_dispatch: # Allows manual testing button
 
