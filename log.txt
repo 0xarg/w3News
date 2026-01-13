@@ -64,3 +64,4 @@ Sun Jan 11 18:36:45 UTC 2026 - US Crypto Framework Advances as Senate Banking Sc
 Mon Jan 12 13:08:00 UTC 2026 - Strategy raises $1.25 billion through stock sales, buys 13,627 bitcoin
 Mon Jan 12 18:41:12 UTC 2026 - Coinbase Search Interest Hits 5-Year Low as COIN Stock Falls 44% From ATH
 Tue Jan 13 13:07:50 UTC 2026 - Upexi enters $36M Solana-backed convertible note deal with Hivemind Capital
+Tue Jan 13 18:39:07 UTC 2026 - Stablecoin yield debate looks like 'parallel banking system,' JPMorgan CFO says
