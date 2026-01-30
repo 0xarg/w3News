@@ -97,3 +97,4 @@ Wed Jan 28 13:12:16 UTC 2026 - Tether is buying up to $1 billion of gold per mon
 Wed Jan 28 18:45:42 UTC 2026 - Coinbase rolls out prediction market to U.S. customers
 Thu Jan 29 13:21:25 UTC 2026 - Fidelity to launch Fidelity Digital Dollar stablecoin
 Thu Jan 29 18:56:56 UTC 2026 - Futures Liquidated: Staggering $139 Million Wiped Out in One Hour as Market Trembles
+Fri Jan 30 13:19:04 UTC 2026 - U.K. Parliament opens stablecoin inquiry to review new regulations: Details
